@@ -1,0 +1,11 @@
+.cartao {
+  display: flex;
+  flex-direction: column;
+  min-height: 220px;
+  padding: 16px;
+  border: 1px solid #c7cbb8;
+  background-color: rgba(43, 128, 226, 0.555);
+  button {
+    margin-top: auto;
+  }
+}

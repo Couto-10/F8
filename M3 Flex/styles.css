@@ -1,0 +1,16 @@
+.lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.cartao {
+  flex: 1 1 220px;
+  padding: 16px;
+  background-color: #6b4a2e;
+  border: 1px solid #a88462;
+  border-radius: 6px;
+  text-align: center;
+  border-radius: 8px;
+  color: #c7cbb8;
+}

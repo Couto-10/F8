@@ -1,0 +1,59 @@
+.pagina {
+  display: grid;
+  grid-template-areas:
+    "cap cap cap"
+    "menu main lado"
+    "pe pe pe";
+    min-height: 100vh;
+
+header{
+    grid-area: cap;
+    background-color: #2a1e4d;
+    border: #c9c2e3 1px solid;
+}
+    ul{
+        display: flex;
+        gap: 30px;
+
+        a{
+            text-decoration: none;
+             color: #c9c2e3;
+        }
+        
+        a:hover{
+            text-decoration: underline;
+        }
+    }
+}
+
+main{
+    grid-area: main;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2a1e4d;
+    color: #c9c2e3;
+}
+
+aside{
+    background-color: #2a1e4d;
+     color: #c9c2e3;
+     padding: 10px;
+}
+footer{
+    grid-area: pe;
+    background-color: #2a1e4d;
+    border: #c9c2e3 1px solid;
+    color: #c9c2e3;
+}
+
+.caixa{
+    background-color: #8b7cc7;
+    border-radius: 6px;
+    border: #0e0b1d 2px solid;
+    padding: 10px;
+    width: 200px;
+    height: 60px;
+}

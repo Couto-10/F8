@@ -1,0 +1,17 @@
+.topo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+  background-color: #3d4337;
+  color: #c7cbb8;
+}
+
+    a{
+       text-decoration: none;
+      color: #c7cbb8;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }

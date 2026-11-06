@@ -1,0 +1,28 @@
+body {
+  background-color: #1a120e;
+}
+
+.grade {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.cartao {
+  background-color: #6b4a2e;
+  border: 1px solid #a88462;
+  border-radius: 6px;
+  padding: 20px;
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+  .grade {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 1000px) {
+  .grade {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
